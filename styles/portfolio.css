@@ -211,7 +211,7 @@ footer .email-link:hover{
 }
 
 footer .social-links a {
-    margin: 40px 20px;
+    margin: 20px 20px;
     color: var(--branding-color);
     background: var(--secondary-color);
     padding: 10px 16px;
@@ -223,6 +223,10 @@ footer .social-links a {
 footer .social-links a:hover{
     color: white;
     background-color: var(--branding-color);
+}
+
+footer .attribute {
+    padding: 0px 30px 30px;
 }
 
 
@@ -239,6 +243,7 @@ footer .social-links a:hover{
     }
     .content h1 {
         font-size: 40px;
+        line-height: 50px;
     }
     .hero{
         padding: 80px 10px;
@@ -252,11 +257,11 @@ footer .social-links a:hover{
         padding: 50px 0;
     }
 
-    .logo {
-        max-height: 50px;
+    nav .logo {
+        max-height: 40px;
     }
     nav ul {
-        padding: 25px 0 0;
+        padding: 20px 0 0;
     }
     footer .contact-box{
         padding: 30px;
@@ -265,9 +270,12 @@ footer .social-links a:hover{
         font-size: 18px;
         padding: 18px 24px;
     }
+    footer .attribute{
+        font-size: 16px;
+    }
 }
 
-@media (max-width: 365px) {
+@media (max-width: 370px) {
     
     h1{
         font-size: 60px;
@@ -280,6 +288,7 @@ footer .social-links a:hover{
     }
     .content h1 {
         font-size: 30px;
+        line-height: 50px;
     }
     .hero{
         padding: 125px 10px;
@@ -293,7 +302,7 @@ footer .social-links a:hover{
         padding: 50px 0;
     }
 
-    .logo {
+    nav .logo {
         display: none;
     }
 
@@ -306,6 +315,9 @@ footer .social-links a:hover{
 
     footer .email-link{
         font-size: 20px;
+    }
+    footer .attribute{
+        font-size: 16px;
     }
 
 }
