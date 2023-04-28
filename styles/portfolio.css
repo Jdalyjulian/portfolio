@@ -107,13 +107,14 @@ p {
 }
 
 .content-container {
-    padding: 200px 20px;
+    padding: 150px 20px;
 }
 
 .content h1 {
     font-size: 64px;
-    line-height: 80px
-    ;
+    line-height: 80px;
+    text-align: center;
+    
 }
 
 .content h2 {
@@ -176,7 +177,7 @@ footer{
 }
 footer .contact-box{
     background-color: var(--secondary-color);
-    padding: 30px 120px;
+    padding: 30px 90px;
     border-radius: 5px;
 }
 
@@ -226,6 +227,9 @@ footer .social-links a:hover{
     h4{
         font-size: 22px;
     }
+    .content h1 {
+        font-size: 40px;
+    }
     .hero{
         padding: 125px 10px;
     }
@@ -260,6 +264,9 @@ footer .social-links a:hover{
     }
     h2{
         font-size: 45px
+    }
+    .content h1 {
+        font-size: 30px;
     }
     .hero{
         padding: 125px 10px;
