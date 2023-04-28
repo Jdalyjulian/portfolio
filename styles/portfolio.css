@@ -105,7 +105,13 @@ a{
 .snapshot img {
     border-radius: 4px;
 }
-
+.snapshot-work {
+    padding: 30px 30px;
+    background: var(--secondary-color);
+}
+.snapshot-work img {
+    border-radius: 4px;
+}
 .project-description {
     padding: 90px 60px;
 }
