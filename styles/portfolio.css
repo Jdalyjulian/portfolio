@@ -1,10 +1,10 @@
 
 :root {
-    --branding-color: #64a36f;
-    --secondary-color: #fbfae1;
-    --accent-color: #cef0b9;
-    --primary-font-color: #272142;
-    --heading-font-family: 'Playfair Display', serif;
+    --branding-color: #618867;
+    --secondary-color: #c3d4c0;
+    --accent-color: #e3f6e0;
+    --primary-font-color: #545454;
+    --heading-font-family: 'Poppins', serif;
     --default-font-family: 'Poppins', sans-serif;
 }
 
@@ -45,22 +45,21 @@ a{
 .hero{
     background: var(--secondary-color);
     text-align: center;
-    padding: 100px 20px;
+    padding: 50px 20px 100px;
 }
 
-.hero p {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    color: var(--primary-font-color);
+.hero img{
+    padding: 0;
+    max-height: 300px;
 }
+
 
 .hero h2{
     font-family: var(--default-font-family);
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    margin-top: 24px;
+    margin-top: 12px;
     color: var(--primary-font-color);
 }
 
@@ -71,7 +70,7 @@ a{
     line-height: 27px;
     background-color: var(--branding-color);
     color: white;
-    margin-top: 49px;
+    margin-top: 25px;
     border-radius: 4px;
     transition: all 150ms ease-in-out;
 }
@@ -151,12 +150,17 @@ a{
     border-radius: 5px;
 }
 
+.work-h2{
+    text-align: center;
+}
+
 nav .logo {
     max-height: 90px;
+    padding-top: 5px;
 }
 
 nav {
-    padding: 0 0 20px;
+    padding: 0 0 15px;
     
 }
 nav ul {
